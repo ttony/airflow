@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag airflow:$(date +%s)
+      run: docker build . --file Dockerfile --tag airflow:2.10.5-$(date +%s)
