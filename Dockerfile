@@ -1,5 +1,5 @@
 FROM apache/airflow:2.10.5
 
-USER root
+USER airflow
 
 RUN pip install airflow-exporter
